@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Engineering Pathways</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-color: #e3eaf2;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .homepage-grid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .homepage-grid a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 220px;
+      height: 140px;
+      background-color: #f2f6fb;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #003366;
+      text-decoration: none;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .homepage-grid a:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #003366;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Engineering Pathways</h1>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Engineering Pathways</h2>
+    <p>Your go-to resource for navigating high school as a future engineer.</p>
+  </section>
+
+  <section class="homepage-grid">
+    <div class="row">
+      <a href="pages/grade.html">Explore by Grade</a>
+      <a href="pages/ap-sat.html">SAT & AP Help</a>
+      <a href="pages/extracurriculars.html">Extracurriculars</a>
+    </div>
+    <div class="row">
+      <a href="pages/universities.html">University Guide</a>
+      <a href="pages/scholarships.html">Scholarships</a>
+      <a href="pages/articles.html">Articles & Interviews</a>
+      <a href="pages/about.html">About Us</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Andrea Alfonzo — Engineering Pathways</p>
+  </footer>
+</body>
+</html>
+
